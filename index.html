@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stocks Return Calculator</title>
-</head>
-<body>
-    <h1>Stock Profit/Loss Calculator</h1>
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <h1>Stock Profit/Loss Calculator</h1>
+        <label>Enter the purchase price of stock</label>
+        <input type="number" class="inputs" />
+        <label>Enter the quantity of stocks you purchased</label>
+        <input type="number" class="inputs" />
+        <label>Enter the current price of stock</label>
+        <input type="number" class="inputs" />
+        <button id="check-btn">Check Now</button>
+      </form>
+      <p id="output"></p>
+    </div>
+  </body>
 </html>
