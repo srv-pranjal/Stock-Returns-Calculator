@@ -11,14 +11,33 @@
       <form id="form">
         <h1>Stock Profit/Loss Calculator</h1>
         <label>Enter the purchase price of stock</label>
-        <input type="number" class="inputs" />
+        <input
+          type="number"
+          class="input"
+          min="0.0001"
+          step="0.00001"
+          required
+        />
         <label>Enter the quantity of stocks you purchased</label>
-        <input type="number" class="inputs" />
+        <input
+          type="number"
+          class="input"
+          min="0.0001"
+          step="0.00001"
+          required
+        />
         <label>Enter the current price of stock</label>
-        <input type="number" class="inputs" />
+        <input
+          type="number"
+          class="input"
+          min="0.0001"
+          step="0.00001"
+          required
+        />
         <button id="check-btn">Check Now</button>
       </form>
       <p id="output"></p>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
